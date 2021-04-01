@@ -1,7 +1,7 @@
 import java.io.PrintStream;
 import java.util.Scanner;
 
-public class InClassNotes {
+public class InClassNotesWeek3 {
     public static void main(String[] args) {
 
          /* What we went over in Week 3 in class introducing Java,
@@ -117,11 +117,11 @@ public class InClassNotes {
         )) );
         System.out.printf("Monthly payment will be: " + "%.2f\n",monthlyPayment);
 
-/*      //Making Fahrenheit into celsius, having formatting issue though..
+      //Making Fahrenheit into celsius, having formatting issue though..
         double fahrenheit = 105;
         double celsius = (5/9.0) * (fahrenheit - 32);
-        System.out.printf(fahrenheit + " degrees fahrenheit is " + "%.2f\n", celsius + "degrees celsius.");
-
+        System.out.printf("Temp in fahrenheit: " + fahrenheit + ". Temp in celsius: " + "%.2f", celsius);
+/*
       Steve's solution, calling it from the class/method
         double degreesF = 92;
         System.out.printf("%.2f\n",fahrenheitToCelsius);
