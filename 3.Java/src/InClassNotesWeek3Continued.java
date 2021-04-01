@@ -9,8 +9,11 @@ public class InClassNotesWeek3Continued {
     public static void main(String[] args) {
         /* What we went over in Week 3 in class introducing Java,
          String methods, random numbers and math functions, &||, if-else statements
-         some calculation exercises: leap year, char validation,
-         finding angles of a triangle with just coordinates, lottery generator
+         some calculation exercises: leap year, char validation
+
+         NOTE: For the exercises finding angles of a triangle with just coordinates
+         and the lottery generator, I made it only using the methods we've learned up
+         to this point.
           */
 
         /* Strings are a class and reference type, and are immutable (cannot be modified)
