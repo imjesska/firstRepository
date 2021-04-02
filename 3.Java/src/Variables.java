@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.util.Scanner;
 
-public class CoreJavaBasics {
+public class Variables {
     public static void main(String[] args) {
 
         //Declaring and adding integer type variables
