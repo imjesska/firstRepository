@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html,body,h1,h2,h3,h4,h5,h6{
+    color:#3eb195;
+    font-family: 'Open Sans', sans-serif;
+}
+a:link{margin: 10px;}
+a:visited {color: #c9a94f;}
+a:hover{color:#2e846f; text-decoration-thickness: 5px;}
+body{
+    background-color: "w3-light-grey";
+}
+
+div{
+    color: #3eb195;
+    
+}
