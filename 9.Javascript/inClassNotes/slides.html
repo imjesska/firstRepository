@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    <h1 class="header">Slide 9</h1>
+    <div>
+        <ul id="items" class="list-group">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <script>
+            var li = document.getElementsByTagName("li");
+            var myArr = Array.prototype.slice.call(li,1,3);
+            for(i in myArr){
+                console.log(myArr[i]);
+            }
+        </script>
+    </div>
+
+   
+  
+<script type="text/javascript" >  
+  function showcommentform() {  
+var data="Your location is USA";
+document.getElementById('mylocation').innerHTML=data;  
+}  
+</script> 
+
+
+<body>
+<form name="myForm">  
+   <input type="button" value="Show My Location" onclick="showcommentform()">  
+   <h3>Your location will show below, please click on the button </h3>
+<div id="mylocation"></div>  
+</form>  
+
+    
+</body>
+</html>
